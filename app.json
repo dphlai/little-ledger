@@ -1,0 +1,29 @@
+{
+    "expo": {
+      "name": "Little Ledger",
+      "slug": "little-ledger",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "userInterfaceStyle": "light",
+      "splash": {
+        "resizeMode": "contain",
+        "backgroundColor": "#f8f9fa"
+      },
+      "assetBundlePatterns": [
+        "**/*"
+      ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "com.littleledger.app"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "backgroundColor": "#f8f9fa"
+        },
+        "package": "com.littleledger.app"
+      },
+      "web": {
+        "bundler": "metro"
+      }
+    }
+  }
